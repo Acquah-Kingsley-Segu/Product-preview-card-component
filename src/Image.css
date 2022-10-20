@@ -1,0 +1,19 @@
+.imgArea{
+    background-image: url('./images/image-product-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 30vw;
+}
+
+@media screen and (max-width: 768px){
+    .imgArea{
+        background-image: url('./images/image-product-mobile.jpg');
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+        height: 35vh;
+        width: 78vw;
+    }
+}
